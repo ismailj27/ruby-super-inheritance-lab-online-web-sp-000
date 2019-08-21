@@ -9,7 +9,7 @@ class ChattyStudent < Student
   def raise_hand
     i = 0
     until i == 5
-      puts i
+      super
       i += 1
     end
   end
